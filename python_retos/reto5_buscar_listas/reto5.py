@@ -7,7 +7,7 @@
 
 import re
 
-texto = "Las listas son [1, 2, 3] y [4, 5, 6]."
+texto = "Las listas son [1, 2, 3], [4, 5, 6] y [ 7, 8, 9]."
 
 # Expresión regular para listas de números
 patron = r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]"
