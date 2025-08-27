@@ -22,12 +22,12 @@ print("Boleanos hallados:", boleanos)
 
 
 #Para Srings
-patron_strings = r'"\b(.*?)\b"'
+patron_strings = r'"\b(.*?)\b"' 
 strings = re.findall(patron_strings, texto)
 print("Strings hallados:", strings)
 
 
 #Para lista de números
-patron_listas = r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]"
+patron_listas = r"\[\s*\d+(?:\s*,\s*\d+)*\s*\]" #\s es para espacio
 lista = re.findall(patron_listas, texto)
 print("Listas halladas:", lista)
